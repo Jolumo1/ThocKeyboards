@@ -1,0 +1,654 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+
+body{
+    width: 95%;
+    margin: auto;
+    background-color: #fcf5e5;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+
+#logoMain{
+    float: left;
+    flex: 1;
+    padding-left: 8%;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.iconos{
+    float: right;
+    flex: 1;
+    padding-top: 1%;
+    padding-right: 12%;
+     
+}
+
+.iconos :hover{
+    background-color: #fcecc9;
+    border-radius: 3px;
+    
+}
+
+
+header {
+    background: #fcf5e5;
+    width: 100%; /*Hay que ponerle el ancho al 100% para que no haya problemas*/
+    position: fixed; /*Esto hace que se quede fijo y no se mueva con el scroll*/
+    z-index: 100; /*esto hace que se quede encima de todo*/
+    padding-top: 10px;
+   
+  }
+
+
+main h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 3%; 
+       
+}
+
+/* MENU SUPERIOR */
+
+nav{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+justify-content: center;
+margin-top: 5px;
+}
+
+nav ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:18px;
+      font-weight: 600;
+      }
+            
+nav li{
+      display:inline-block;
+      width:120px;
+      height:30px;
+      padding:5px 18px;
+      text-align:center;
+      color:#000000;
+      position:relative;
+      background-color: #fcf5e5;
+}
+            
+nav li:hover{
+      
+      color:#000;
+      background-color: #fcecc9;
+      }
+            
+nav li>ul{
+      display:none;  
+      }
+
+nav li:hover{
+    >ul{
+      display:block;
+      position:absolute;
+      top:40px;
+      left:0px;
+      }
+}
+
+/* FIN MENU SUPERIOR */
+
+
+/*IMAGEN AL PRINCIPIO EN EL MAIN*/
+
+#imgMain{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#imgMain img{
+    width: 90%;
+    border-radius: 5px;
+}
+
+
+/*SECCCION NOVEDADES MAIN*/
+
+#novedades{
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: hidden;
+    display: flex; /*esto le mete las propiedades flex a un contenedor*/ 
+    justify-content: center; /*Esto centra el contenido en el contenedor con flex*/ 
+
+}
+
+#novedades article{
+    text-align: justify;
+    padding: 20px;
+    background-color: #fcecc9;
+    border: 2px solid #B86418;
+    border-radius: 5px;
+    width: 28%;
+    float:left;
+    flex: 1;
+    margin: 5px;
+}
+
+#novedades img{
+    width: 100%;
+}
+
+#novedades article h3{
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+#novedades article ul{
+    height: fit-content;
+    overflow:auto;
+    padding-right:5%;
+    padding-left: 10%;
+    
+}
+
+#novedades a{
+    text-decoration: none;
+    color: black;
+}
+
+/*SECCION DE VALORES EN EL MAIN*/
+
+#valores{
+    
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+    display: flex; /*esto le mete las propiedades flex a un contenedor*/ 
+    justify-content: center; /*Esto centra el contenido en el contenedor con flex*/ 
+
+}
+
+#valores article{
+    text-align: justify;
+    padding: 20px;
+    width: 20%;
+    margin: 5px;
+    margin: 0 auto;
+    position:relative;
+    
+}
+
+#valores img{
+    margin:auto;
+    display:block;
+       
+    
+}
+
+#valores article h3{
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+
+
+/*PRODUCTOS Individuales*/
+
+#producto{
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: hidden;
+    
+    display: flex; /*esto le mete las propiedades flex a un contenedor*/
+    justify-content: center; /*Esto centra el contenido en el contenedor con flex*/
+    
+    padding-top: 100px;
+}
+
+#producto div{
+    text-align: justify;
+    width: 90%;
+    margin: 5px;
+    
+}
+
+
+#producto img{
+    width: 60%;
+    float: left;
+    
+}
+
+#producto aside h2{
+    font-weight:800;
+    text-align: center;
+}
+
+#producto aside h3{
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+#producto aside{
+    width: 35%;
+    float: right;
+    background-color: #fcecc9;
+    border: 2px solid #B86418;
+    border-radius: 5px;
+    margin-top: 4%;
+    padding: 2%;
+    overflow: hidden;
+    
+    
+       
+}
+    /*agregar al carrito en producto individual*/
+#producto a{
+    margin-top: 1%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 40px;
+    border: 2px solid #B86418;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    /*para justificar las letras en el medio y centrado*/
+    display: flex;
+    align-items: center;  
+    justify-content: center
+}
+
+#producto a:hover{
+    background-color: #fcf5e5;
+}
+
+#imgProd{
+    padding-top: 1%;
+    padding-bottom: 8%;
+    display: flex;
+    justify-content: center
+}
+
+#imgProd img{
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+
+
+/*TECLADOS */
+
+#tituloInicial{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+#tituloInicial p{
+    font-size: larger;
+    width: 85%;
+    font-weight: 600;
+}
+
+
+#pvp{
+    color: #B86418;
+    font-size: 25px;
+}
+
+
+/*ACCESORIOS*/
+
+#accesorios{
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: hidden;
+    display: flex; /*esto le mete las propiedades flex a un contenedor*/ 
+    justify-content: center; /*Esto centra el contenido en el contenedor con flex*/ 
+
+}
+
+#accesorios article{
+    text-align: justify;
+    padding: 20px;
+    background-color: #fcecc9;
+    border: 2px solid #B86418;
+    border-radius: 5px;
+    width: 28%;
+    margin: 5px;
+        
+}
+
+#accesorios img{
+    width: 100%;
+}
+
+#accesorios article h3{
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 3px;
+    
+    
+}
+
+#accesorios article p{
+    height: 120px;
+    overflow:auto;
+    margin: 0px;
+}
+
+#carritoAccesorios{
+    display: flex;
+    align-items: center;  
+    justify-content: center
+}
+
+
+#carritoAccesorios a{
+    text-decoration: none;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    
+    width: 250px;
+    height: 50px;
+    border: 2px solid #B86418;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    
+    /*para justificarlo en el medio y centrado*/
+    display: flex;
+    align-items: center;  
+    justify-content: center
+}
+
+#carritoAccesorios :hover{
+    background-color: #fcf5e5;
+}
+
+
+/* SWITCHES */
+
+#switch{
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: hidden;
+    display: flex; /*esto le mete las propiedades flex a un contenedor*/ 
+    justify-content: center; /*Esto centra el contenido en el contenedor con flex*/ 
+
+}
+
+#switch article{
+    text-align: justify;
+    background-color: #fcecc9;
+    border: 2px solid #B86418;
+    border-radius: 5px;
+    width: 28%;
+    margin: 5px;
+    
+        
+}
+
+#switch img{
+    width: 100%;
+}
+
+#switch article h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#switch article ul{
+    height: 130px;
+    overflow:auto;
+    padding-right:5%;
+}
+
+
+/*KEYCAPS*/
+
+#keycaps{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex; /*esto le mete las propiedades flex a un contenedor*/ 
+    align-items: center;
+    padding: 5px;
+    background-color: #fcecc9;
+    border: 2px solid #B86418;
+}
+
+#keycaps article{
+    text-align: justify;
+    padding: 20px;
+    
+    border-radius: 5px;
+    width: 80%;
+    margin: 5px;
+       
+}
+
+#keycaps img{
+    width: 60%;
+    border-radius: 5px;
+    float: right;
+    
+}
+
+#keycaps article h3{
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#keycaps article ul{
+    height: fit-content;
+    overflow:auto;
+    padding-right:5%;
+    padding-left: 10%;
+}
+
+
+/*CONTACTOy SOBRE NOSOTROS*/
+
+.resaltado{
+    color: #B86418;
+    font-weight: 600;
+}
+
+
+
+#inicioComun {
+    
+    padding-top: 100px;
+    padding-left: 6%;
+    padding-right: 6%;
+    width: 100%;
+   
+}
+
+#inicioComun h3{
+    font-size: larger;
+    width: 85%;
+    font-weight: 600;
+}
+
+#nosotros{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#nosotros p{
+    font-size:medium;
+    
+    font-weight: 400;
+    
+}
+
+#nosotros article{
+    width: 80%;
+    text-align: justify;
+    
+    
+}
+
+
+
+#imgNosotros{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+form{
+    background-color: #fcecc9;
+    border: 2px double #B86418;
+    border-radius: 5px;
+    padding: 2%;
+    width: 36%;
+    overflow: hidden;
+}
+
+
+label{
+    border: 2px solid #B86418;
+    background-color: #fcf5e5;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 1%;
+    margin-bottom: 3px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+input{
+    background-color: #fcf5e5;
+    width: 250px;
+    margin-left: 1%;
+}
+
+#motivo1{
+        width: fit-content;
+}
+
+#motivo2{
+    width: fit-content;
+}
+
+textarea{
+    background-color: #fcf5e5;
+    margin-left: 1%;
+    width: 510px; height: 160px;
+}
+
+
+#formulario img{
+    margin-left: 2%;
+    
+}
+
+
+/* AQUI EMPIEZA EL FOOTER Y EL MENU INFERIOR*/
+
+
+footer{
+    text-align: center;
+    border-top: 2px solid rgb(56, 56, 56);
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+
+.menuAbajo{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+
+.menuAbajo a{
+    text-decoration:none;
+    color:inherit;
+    font-size:16px;
+    font-weight: 400;
+}
+
+
+.menuAbajo li{
+    display:inline-block;
+    width:130px;
+    height:30px;
+    padding:5px 5px;
+    text-align:center;
+    color:#000000;
+    
+}
+            
+
+.menuAbajo a:hover{     
+    font-weight: bold;
+}
+     
+
+#logoAbajo{
+    height: 30px;
+    width: 20px;
+}
+
+
+
+
+
+
