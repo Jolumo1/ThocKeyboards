@@ -19,6 +19,8 @@ Este proyecto tiene como objetivo mejorar mis habilidades en el diseño de inter
 - Integración de un sistema de carrito de compras y pagos.
 - Mejoras en la accesibilidad y el rendimiento.
 
+## Live demo:
+https://jolumo1.github.io/ThocKeyboards/
 
 ![Vista previa de la tienda](img_readme/1.png)
 <br>
