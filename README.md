@@ -19,3 +19,7 @@ Este proyecto tiene como objetivo mejorar mis habilidades en el diseño de inter
 - Integración de un sistema de carrito de compras y pagos.
 - Mejoras en la accesibilidad y el rendimiento.
 
+
+![Vista previa de la tienda](img_readme/1.png)
+
+![Vista previa de la tienda](https://raw.githubusercontent.com/Jolumo1/ThocKeyboards/main/img_readme/1.png)
