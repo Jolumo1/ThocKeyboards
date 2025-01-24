@@ -21,5 +21,9 @@ Este proyecto tiene como objetivo mejorar mis habilidades en el diseño de inter
 
 
 ![Vista previa de la tienda](img_readme/1.png)
-
-![Vista previa de la tienda](https://raw.githubusercontent.com/Jolumo1/ThocKeyboards/main/img_readme/1.png)
+<br>
+![Vista previa de la tienda](img_readme/2.png)
+<br>
+![Vista previa de la tienda](img_readme/3.png)
+<br>
+![Vista previa de la tienda](img_readme/4.png)
